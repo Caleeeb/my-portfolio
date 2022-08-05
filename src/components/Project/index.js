@@ -9,10 +9,10 @@ function Project() {
             photo: 'glassfiller.png'
         },
         {
-            name: 'Glassfiller 2.0 (coming soon)',
-            description: 'This is an application that houses cocktail recipes. Make, save, and find new concoctions. Made with Node.js, Mongodb, React, and ',
+            name: 'Glassfiller 2.0',
+            description: 'This is an application that houses cocktail recipes. Make, save, and find new concoctions. Made with Node.js, Mongodb, React, and GraphQL.',
             link: '',
-            photo: 'drink-app.jpeg'
+            photo: 'glassfiller2.png'
         },
         {
             name: 'Gifcast',
