@@ -30,7 +30,7 @@ function Nav(props) {
             </a>
           </li>
           <li className="mx-2">
-            <a data-testid="portfolio" href="https://caleeeb.github.io/module2-portfolio/assets/Resume%202021.pdf" target="_blank" rel="noreferrer">
+            <a data-testid="portfolio" href="https://caleeeb.github.io/module2-portfolio/assets/Resume%202021.pdf" target="_blank" rel="noopener noreferrer">
               My Portfolio
             </a>
           </li>

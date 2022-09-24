@@ -9,10 +9,10 @@ function Project() {
             photo: 'glassfiller.png'
         },
         {
-            name: 'Glassfiller 2.0 (coming soon)',
-            description: 'This is an application that houses cocktail recipes. Make, save, and find new concoctions. Made with Node.js, Mongodb, React, and ',
+            name: 'Glassfiller 2.0',
+            description: 'This is an application that houses cocktail recipes. Make, save, and find new concoctions. Made with Node.js, Mongodb, React, and GraphQL.',
             link: '',
-            photo: 'drink-app.jpeg'
+            photo: 'glassfiller2.png'
         },
         {
             name: 'Gifcast',
@@ -44,7 +44,7 @@ function Project() {
 
         <div className='container jobs'>
             {projects.map((project, i) => (
-                <a className='project-link' href={project.link} target="_blank" rel="noreferrer" key={i}>
+                <a className='project-link' href={project.link} target="_blank" rel="noopener noreferrer" key={i}>
 
                     <div className="mx-1 my-1 project">
                         <div className='capition'>

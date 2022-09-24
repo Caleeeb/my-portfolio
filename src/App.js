@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
 import Project from './components/Project';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         currentPage={currentPage}
         handlePage={handlePage}></Nav>
       {choosePage(currentPage)}
+      <Footer />
     </main>
   );
 }
