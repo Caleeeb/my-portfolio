@@ -13,35 +13,35 @@ function Project() {
             name: 'Glassfiller 2.0',
             description: 'This application is in progress! This is a updated version of Glassfiller, an application that houses cocktail recipes. Make, save, and find new concoctions. Made with Node.js, Mongodb, React, and GraphQL.',
             link: '',
-            github: '',
+            github: 'https://github.com/Caleeeb/glassfiller-2.0',
             photo: 'glassfiller2.png'
         },
         {
             name: 'Gifcast',
             description: 'An application that presents the current weather of a certain location and also a gif from giphy using the description of the weather.',
             link: 'https://cardenas1850.github.io/gifcast/',
-            github: '',
+            github: 'https://github.com/Caleeeb/gifcast',
             photo: 'gifcast.png'
         },
         {
             name: 'Work Day Scheduler',
             description: 'An application that can be used to plan out your day. Save your tasks locally using local storage. Each time slot is color coardianted based on the current time.',
             link: 'https://caleeeb.github.io/work-day-scheduler/',
-            github: '',
+            github: 'https://github.com/Caleeeb/work-day-scheduler',
             photo: 'work-day-scheduler.png'
         },
         {
             name: 'Note Taker',
             description: 'An application that stores notes for you. App is made with Node.js and Express.js, deployed with Heroku.',
             link: 'https://notetaker1234567.herokuapp.com/',
-            github: '',
+            github: 'https://github.com/Caleeeb/note-taker',
             photo: 'note-taker.png'
         },
         {
             name: 'Run Buddy',
             description: "A mock up of a fitness program's website.",
             link: 'https://caleeeb.github.io/run-buddy/',
-            github: '',
+            github: 'https://github.com/Caleeeb/run-buddy',
             photo: 'run-buddy.jpeg'
         },
     ]);

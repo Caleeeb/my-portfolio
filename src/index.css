@@ -160,7 +160,7 @@ header {
 }
 
 .myt-5 {
-  margin-top: var(--spacing-five);
+  margin-top: var(--spacing-two);
 }
 
 .button {
@@ -307,6 +307,16 @@ textarea {
   max-width: 100%;
   min-height: 1em;
   height: auto;
+}
+
+.self-description {
+  padding: 1em;
+  border: dotted;
+  margin: 2em, 0, 2em, 0;
+}
+
+.self-img {
+  margin-top: 1em;
 }
 
 /* .email {
