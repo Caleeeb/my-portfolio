@@ -7,7 +7,7 @@
   --bgColor: rgb(112, 125, 160);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
+  --spacing-five: calc(10rem);
 }
 
 main {
@@ -116,6 +116,10 @@ header {
   margin-left: var(--spacing-two);
 }
 
+.mx-5L {
+  margin-left: var(--spacing-five);
+}
+
 .my-1 {
   margin-top: var(--spacing-one);
   margin-bottom: var(--spacing-one);
@@ -159,11 +163,11 @@ header {
   margin-top: var(--spacing-five);
 }
 
-button {
+.button {
   font-size: 1rem;
   text-decoration: none;
   padding: 0.25rem 1rem;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
   border: none;
   outline: none;
   cursor: pointer;
@@ -171,11 +175,11 @@ button {
   background-color: var(--secondary);
 }
 
-button:hover {
+.button:hover {
   opacity: 0.8;
 }
 
-button[disabled] {
+.button[disabled] {
   cursor: default;
   opacity: 0.8;
 }
@@ -220,6 +224,10 @@ input:focus {
 
 li {
   list-style: none;
+}
+
+.bar {
+  margin-top: 10em;
 }
 
 nav a:hover {
@@ -291,3 +299,16 @@ textarea {
   min-height: 300px;
   height: auto;
 }
+
+.github-link {
+  background-color: var(--light);
+  border: 5px solid var(--dark);
+  margin-inline: 10em;
+  max-width: 100%;
+  min-height: 1em;
+  height: auto;
+}
+
+/* .email {
+  padding-left: 30rem;
+} */
