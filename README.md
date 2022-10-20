@@ -20,7 +20,7 @@ This is my portfolio. Read about my journey in web devolpment, look at the proje
 
 A live link to my website:
 
-[My Portfolio](https://caleeeb.github.io/my-react-portfolio/)
+[My Portfolio](https://caleeeb.github.io/my-portfolio/)
 
 
 ![Work Day Scheduler](src/images/portfolioSS.png)
